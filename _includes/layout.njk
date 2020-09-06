@@ -4,29 +4,74 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Store Scores</title>
-		<meta name="description" content="See what your store scores for speed, seo, accessability, and best practices.">
+		<meta name="description" content="See what your store scores for speed, seo, quality, and accessability.">
 		<link rel="stylesheet" href="/style.css">
 		<script>
-		document.documentElement.classList.add("js");
+			document.documentElement.classList.add("js");
 		</script>
+		<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 	</head>
-	<body>
-		<h1 class="speedlify-hed"><a href="/">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
-		<p class="speedlify-subhed">
-			Benchmark {{ sites[vertical].description or "web pages" }} over time.
-			{%- if maxResults %}
-				Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
-			{% endif %}
-			Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-		</p>
-		<p class="speedlify-subhed">
-			<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
-		</p>
+	<body class="bg-white">
 
+		<div class="relative max-w-6xl h-screen txt-blk">
+			<div class="flex items-center flex-row-reverse flex-row max-w-screen-xl mx-auto h-screen">
+				<div class="w-2/3 pl-20">
+					<h1 class="text-3xl font-extrabold tracking-tight sm:text-6xl leading-tight">
+						Store Scores
+					</h1>
+					<h2 class="txt-blk text-4xl tracking-tight leading-normal font-extrabold sm:text-4xl sm:leading-none md:text-3xl">
+						by Cha Ching
+					</h2>
+					<p class="txt-blk mt-3 max-w-md mx-auto sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+						Official google scores for online stores,<br>
+						& shop themes. <a href="#scores" class="inline-block text-red-600">See the latest scores</a> <svg class="inline-block animate-bounce w-6 h-6 text-red-600" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+					</p>
+				</div>
+				<div class="w-1/4 border-r-2 border-gray-300 border-solid">
+					<dl class="sm:grid sm:grid-cols-1">
+						<div class="flex flex-col border-b border-gray-100 py-6 pl-6 text-center sm:border-0 sm:border-r">
+							<dt class="order-2 mt-1 text-lg leading-6 font-medium text-gray-500" id="item-1">
+							Speed
+							</dt>
+							<dd class="order-1 text-6xl leading-none font-extrabold tracking-tighter text-red-600" aria-describedby="item-1">
+							<svg viewBox="0 0 20 20" fill="currentColor" class="lightning-bolt w-16 h-16 mx-auto"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path></svg>
+							</dd>
+						</div>
+						<div class="flex flex-col border-t border-b border-gray-100 py-6 pl-6 text-center sm:border-0 sm:border-l sm:border-r">
+							<dt class="order-2 mt-1 text-lg leading-6 font-medium text-gray-500">
+							SEO
+							</dt>
+							<dd class="order-1 text-6xl leading-none font-extrabold tracking-tighter text-red-600">
+							<svg viewBox="0 0 20 20" fill="currentColor" class="search-circle w-16 h-16 mx-auto"><path d="M9 9a2 2 0 114 0 2 2 0 01-4 0z"></path><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z" clip-rule="evenodd"></path></svg>
+							<!--svg viewBox="0 0 20 20" fill="currentColor" class="search w-16 h-16 mx-auto"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg-->
+							</dd>
+						</div>
+						<div class="flex flex-col border-t border-gray-100 py-6 pl-6 text-center sm:border-0 sm:border-l">
+							<dt class="order-2 mt-1 text-lg leading-6 font-medium text-gray-500">
+							Access
+							</dt>
+							<dd class="order-1 text-6xl leading-none font-extrabold tracking-tighter text-red-600">
+							<svg viewBox="0 0 20 20" fill="currentColor" class="shopping-cart w-16 h-16 mx-auto"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+							</dd>
+						</div>
+						<div class="flex flex-col border-t border-gray-100 py-6 pl-6 text-center sm:border-0 sm:border-l">
+							<dt class="order-2 mt-1 text-lg leading-6 font-medium text-gray-500">
+							Quality
+							</dt>
+							<dd class="order-1 text-6xl leading-none font-extrabold tracking-tighter text-red-600">
+							<svg viewBox="0 0 20 20" fill="currentColor" class="badge-check w-16 h-16 mx-auto"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+							</dd>
+						</div>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div id="scores"></div>
 		{{ content | safe }}
 
 		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+			storescores.app
 		</footer>
 
 		<script defer src="/chartist.js"></script>
