@@ -5,6 +5,8 @@ module.exports = {
 		frequency: 60 * 1, // (in minutes), 23 hours
 	},
 	urls: [
+		"https://debut-theme-default.myshopify.com/",
+		"https://debut-theme-lightroom.myshopify.com/",
 		"https://teamapparel.com.au/",
 		"https://au.koala.com/",
 		"https://sensorylab.com.au/",

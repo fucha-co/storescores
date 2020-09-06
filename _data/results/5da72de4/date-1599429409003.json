@@ -1,0 +1,46 @@
+{
+  "url": "https://debut-theme-default.myshopify.com/",
+  "requestedUrl": "https://debut-theme-default.myshopify.com/",
+  "timestamp": 1599429736208,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.14,
+    "accessibility": 0.89,
+    "bestPractices": 0.93,
+    "seo": 0.98,
+    "total": 294
+  },
+  "firstContentfulPaint": 3640.6270000000004,
+  "speedIndex": 28875.843059471663,
+  "largestContentfulPaint": 14479.627,
+  "totalBlockingTime": 19810.5,
+  "cumulativeLayoutShift": 0.0234375,
+  "timeToInteractive": 24914.127,
+  "maxPotentialFirstInputDelay": 3748,
+  "timeToFirstByte": 348.91599999999926,
+  "weight": {
+    "summary": "30 requests • 658 KiB",
+    "total": 674277,
+    "image": 418021,
+    "imageCount": 15,
+    "script": 171778,
+    "scriptCount": 8,
+    "document": 20260,
+    "font": 38630,
+    "fontCount": 2,
+    "stylesheet": 24147,
+    "stylesheetCount": 1,
+    "thirdParty": 654017,
+    "thirdPartyCount": 29
+  },
+  "axe": {
+    "passes": 788,
+    "violations": 14
+  }
+}

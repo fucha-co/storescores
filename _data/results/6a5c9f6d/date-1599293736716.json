@@ -1,0 +1,48 @@
+{
+  "url": "https://stali.com.au/",
+  "requestedUrl": "https://stali.com.au/",
+  "platform": "shopify plus",
+  "timestamp": 1599294591094,
+  "ranks": {
+    "hundos": 6,
+    "performance": 6,
+    "accessibility": 3,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.04,
+    "accessibility": 0.81,
+    "bestPractices": 0.71,
+    "seo": 0.86,
+    "total": 242
+  },
+  "firstContentfulPaint": 6825.655000000002,
+  "speedIndex": 38101.22141675186,
+  "largestContentfulPaint": 8129.938000000002,
+  "totalBlockingTime": 37637.102000000006,
+  "cumulativeLayoutShift": 0.32787197536892365,
+  "timeToInteractive": 53516.25700000001,
+  "maxPotentialFirstInputDelay": 4805,
+  "timeToFirstByte": 264.865,
+  "weight": {
+    "summary": "190 requests • 3,437 KiB",
+    "total": 3519708,
+    "image": 474858,
+    "imageCount": 30,
+    "script": 2331912,
+    "scriptCount": 79,
+    "document": 274077,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 97179,
+    "stylesheetCount": 12,
+    "thirdParty": 3350284,
+    "thirdPartyCount": 177
+  },
+  "axe": {
+    "error": {
+      "name": "TimeoutError"
+    }
+  }
+}

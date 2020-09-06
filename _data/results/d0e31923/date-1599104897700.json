@@ -1,0 +1,47 @@
+{
+  "url": "https://www.culturekings.com.au/",
+  "requestedUrl": "https://www.culturekings.com.au/",
+  "platform": "shopify plus",
+  "timestamp": 1599105808955,
+  "ranks": {
+    "hundos": 5,
+    "performance": 3,
+    "accessibility": 5,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.08,
+    "accessibility": 0.68,
+    "bestPractices": 0.71,
+    "seo": 0.83,
+    "total": 230
+  },
+  "firstContentfulPaint": 3919.9385,
+  "speedIndex": 27399.226064779537,
+  "largestContentfulPaint": 30192.58200000001,
+  "totalBlockingTime": 56882.34950000001,
+  "cumulativeLayoutShift": 1.1121307847764756,
+  "timeToInteractive": 73499.99600000001,
+  "maxPotentialFirstInputDelay": 4634.9999999999945,
+  "timeToFirstByte": 323.408,
+  "weight": {
+    "summary": "278 requests • 6,734 KiB",
+    "total": 6895733,
+    "image": 4791856,
+    "imageCount": 106,
+    "script": 1617461,
+    "scriptCount": 95,
+    "document": 125888,
+    "font": 121453,
+    "fontCount": 4,
+    "stylesheet": 152123,
+    "stylesheetCount": 20,
+    "thirdParty": 6785744,
+    "thirdPartyCount": 273
+  },
+  "axe": {
+    "passes": 1244,
+    "violations": 51
+  }
+}

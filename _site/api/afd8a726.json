@@ -1,0 +1,46 @@
+{
+  "url": "https://au.koala.com/",
+  "requestedUrl": "https://au.koala.com/",
+  "timestamp": 1599365754780,
+  "ranks": {
+    "hundos": 1,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.12,
+    "accessibility": 0.9,
+    "bestPractices": 0.86,
+    "seo": 0.75,
+    "total": 263
+  },
+  "firstContentfulPaint": 3227.3470000000007,
+  "speedIndex": 37887.67511235265,
+  "largestContentfulPaint": 10524.581999999999,
+  "totalBlockingTime": 49456.99999999999,
+  "cumulativeLayoutShift": 0.3700908813476563,
+  "timeToInteractive": 60387.846999999994,
+  "maxPotentialFirstInputDelay": 6589.999999999998,
+  "timeToFirstByte": 41.10600000000011,
+  "weight": {
+    "summary": "189 requests • 2,274 KiB",
+    "total": 2328307,
+    "image": 548983,
+    "imageCount": 51,
+    "script": 1579616,
+    "scriptCount": 62,
+    "document": 40358,
+    "font": 92433,
+    "fontCount": 7,
+    "stylesheet": 871,
+    "stylesheetCount": 1,
+    "thirdParty": 1412919,
+    "thirdPartyCount": 148
+  },
+  "axe": {
+    "passes": 778,
+    "violations": 32
+  }
+}

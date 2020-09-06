@@ -1,0 +1,52 @@
+{
+  "url": "https://ivyandwood.com.au/",
+  "requestedUrl": "https://ivyandwood.com.au/",
+  "timestamp": 1599366371645,
+  "ranks": {
+    "hundos": 5,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.1,
+    "accessibility": 0.86,
+    "bestPractices": 0.71,
+    "seo": 0.82,
+    "total": 249
+  },
+  "firstContentfulPaint": 3700.956,
+  "speedIndex": 11634.214828713713,
+  "largestContentfulPaint": 8311.836500000001,
+  "totalBlockingTime": 14472.479999999998,
+  "cumulativeLayoutShift": 0.7415778672960069,
+  "timeToInteractive": 21299.935999999998,
+  "maxPotentialFirstInputDelay": 2588,
+  "timeToFirstByte": 344.456,
+  "weight": {
+    "summary": "81 requests • 1,576 KiB",
+    "total": 1614240,
+    "image": 745191,
+    "imageCount": 25,
+    "script": 777322,
+    "scriptCount": 30,
+    "document": 14076,
+    "font": 39184,
+    "fontCount": 2,
+    "stylesheet": 25872,
+    "stylesheetCount": 9,
+    "thirdParty": 1600164,
+    "thirdPartyCount": 80
+  },
+  "axe": {
+    "passes": 566,
+    "violations": 21
+  },
+  "previousRanks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  }
+}
