@@ -1,0 +1,46 @@
+{
+  "url": "https://www.dockyardsocial.com/",
+  "requestedUrl": "https://www.dockyardsocial.com/",
+  "timestamp": 1599475349765,
+  "ranks": {
+    "hundos": 3,
+    "performance": 1,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.15,
+    "accessibility": null,
+    "bestPractices": 0.86,
+    "seo": 0.92,
+    "total": 193
+  },
+  "firstContentfulPaint": 3893.5729999999994,
+  "speedIndex": 10237.06333441225,
+  "largestContentfulPaint": 9797.082999999999,
+  "totalBlockingTime": 8882.264500000001,
+  "cumulativeLayoutShift": 0.0352919171706049,
+  "timeToInteractive": 16620.04,
+  "maxPotentialFirstInputDelay": 4224.000000000001,
+  "timeToFirstByte": 195.562,
+  "weight": {
+    "summary": "62 requests • 2,813 KiB",
+    "total": 2880591,
+    "image": 2115622,
+    "imageCount": 44,
+    "script": 572321,
+    "scriptCount": 8,
+    "document": 33127,
+    "font": 130525,
+    "fontCount": 2,
+    "stylesheet": 24801,
+    "stylesheetCount": 1,
+    "thirdParty": 2855431,
+    "thirdPartyCount": 59
+  },
+  "axe": {
+    "passes": 423,
+    "violations": 58
+  }
+}

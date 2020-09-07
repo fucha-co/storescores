@@ -1,89 +1,98 @@
 {
-  "https://debut-theme-lightroom.myshopify.com/": {
-    "requestedUrl": "https://debut-theme-lightroom.myshopify.com/",
-    "url": "https://debut-theme-lightroom.myshopify.com/",
-    "hash": "166d9dee",
-    "categories": [
-      "all"
-    ],
-    "vertical": "all"
-  },
   "https://www.pushas.com/": {
     "requestedUrl": "https://www.pushas.com/",
     "url": "https://www.pushas.com/",
     "hash": "123a3641",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
   },
-  "https://debut-theme-default.myshopify.com/": {
-    "requestedUrl": "https://debut-theme-default.myshopify.com/",
-    "url": "https://debut-theme-default.myshopify.com/",
-    "hash": "5da72de4",
+  "https://www.dockyardsocial.com/": {
+    "requestedUrl": "https://www.dockyardsocial.com/",
+    "url": "https://www.dockyardsocial.com/",
+    "hash": "3ca4cdbb",
     "categories": []
+  },
+  "https://www.jbhifi.com.au/": {
+    "requestedUrl": "https://www.jbhifi.com.au/",
+    "url": "https://www.jbhifi.com.au/",
+    "hash": "5d7c0751",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
   },
   "https://stali.com.au/": {
     "requestedUrl": "https://stali.com.au/",
     "url": "https://stali.com.au/",
     "hash": "6a5c9f6d",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
   },
   "https://sensorylab.com.au/": {
     "requestedUrl": "https://sensorylab.com.au/",
     "url": "https://sensorylab.com.au/",
     "hash": "7d6fa36e",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
   },
   "https://ivyandwood.com.au/": {
     "requestedUrl": "https://ivyandwood.com.au/",
     "url": "https://ivyandwood.com.au/",
     "hash": "9f135670",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
+  },
+  "https://marketlane.com.au/": {
+    "requestedUrl": "https://marketlane.com.au/",
+    "url": "https://marketlane.com.au/",
+    "hash": "a6d1d06c",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
   },
   "https://au.koala.com/": {
     "requestedUrl": "https://au.koala.com/",
     "url": "https://au.koala.com/",
     "hash": "afd8a726",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
   },
   "https://www.culturekings.com.au/": {
     "requestedUrl": "https://www.culturekings.com.au/",
     "url": "https://www.culturekings.com.au/",
     "hash": "d0e31923",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
   },
   "https://teamapparel.com.au/": {
     "requestedUrl": "https://teamapparel.com.au/",
     "url": "https://teamapparel.com.au/",
     "hash": "f84e04e8",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
   },
   "https://shopmrbeast.com/": {
     "requestedUrl": "https://shopmrbeast.com/",
     "url": "https://shopmrbeast.com/",
     "hash": "f908282e",
     "categories": [
-      "all"
+      "sites"
     ],
-    "vertical": "all"
+    "vertical": "sites"
   }
 }

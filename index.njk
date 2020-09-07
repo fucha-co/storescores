@@ -40,35 +40,39 @@ counts:
 
 				<div @click="open = true" class="flex flex-row">
 
-					<div class="flex flex-row w-1/3 leading-tight py-6">
+					<div class="flex flex-row items-end w-1/3 leading-tight py-6">
 						<div class="pr-3 text-2xl">
-							{% if hundos === 4 %}🏆{% endif %}
+							{#% if hundos === 4 %}🏆{% endif %}
 							{% if loop.index0 === 0 %}🥇
 							{% elseif loop.index0 === 1 %}🥈
-							{% elseif loop.index0 === 2 %}🥉
-							{% elseif showRank %}
-								<span class="px-0 -mt-4">
-									<span class="inline-flex items-center px-2 py-1 rounded-full text-sm font-medium leading-4 bg-gray-200 text-gray-800">
-									{{ loop.index }}
-								</span>
-								</span>
+							{% elseif loop.index0 === 2 %#}<!--🥉-->
+							{% if showRank %}
+								<div class="w-12 h-12 relative">
+									<svg viewBox="0 0 20 20" fill="currentColor" class="text-red-600 shopping-cart w-12 h-12"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+									<div class="absolute inset-0 flex items-start justify-center text-sm text-white font-semibold mt-2 ml-1">	
+										{{ loop.index }}
+									</div>
+								</div>
 							{% endif %}
 						</div>
 						<div class="flex flex-col">
-							<div class="font-semibold text-red-600 text-2xl url">
+							<div class="font-semibold txt-blk text-2xl url">
 								{{ site[newestKey].url | displayUrl(hasRedirect) | replace("/", "") }}
 								<span class="block text-base font-normal text-gray-500">
 								
-							{% if site[key].url == "https://www.pushas.com/" %}Shopify Website{%- endif %}
-							{% if site[key].url === "https://ivyandwood.com.au/" %}Shopify Website{%- endif %}
-							{% if site[key].url === "https://sensorylab.com.au/" %}Shopify Website{%- endif %}
-							{% if site[key].url == "https://stali.com.au/" %}Shopify Plus Website{%- endif %}
-							{% if site[key].url === "https://au.koala.com/" %}Shopify Plus Website{%- endif %}
-							{% if site[key].url === "https://shopmrbeast.com/" %}Shopify Plus Website{%- endif %}
-							{% if site[key].url === "https://www.culturekings.com.au/" %}Shopify Plus Website{%- endif %}
-							{% if site[key].url == "https://teamapparel.com.au/" %}WordPress Woocommerce Website{%- endif %}
+							{% if site[key].url == "https://www.pushas.com/" %}Shopify store{%- endif %}
+							{% if site[key].url === "https://ivyandwood.com.au/" %}Shopify store{%- endif %}
+							{% if site[key].url === "https://sensorylab.com.au/" %}Shopify store{%- endif %}
+							{% if site[key].url == "https://stali.com.au/" %}Shopify Plus store{%- endif %}
+							{% if site[key].url === "https://au.koala.com/" %}Shopify Plus store{%- endif %}
+							{% if site[key].url === "https://shopmrbeast.com/" %}Shopify Plus store{%- endif %}
+							{% if site[key].url === "https://www.culturekings.com.au/" %}Shopify Plus store{%- endif %}
+							{% if site[key].url == "https://teamapparel.com.au/" %}WordPress Woocommerce store{%- endif %}
 							{% if site[key].url == "https://debut-theme-lightroom.myshopify.com/" %}Shopify theme{%- endif %}
 							{% if site[key].url == "https://debut-theme-default.myshopify.com/" %}Shopify theme{%- endif %}
+							{% if site[key].url == "https://marketlane.com.au/" %}Magento store{%- endif %}
+							{% if site[key].url == "https://www.jbhifi.com.au/" %}Shopify Plus store{%- endif %}
+							{% if site[key].url == "https://www.dockyardsocial.com/" %}Webflow store{%- endif %}
 							</span>
 						</div>
 							
@@ -94,15 +98,6 @@ counts:
 					<div class="flex-1 text-center pt-6 pb-5 leading-tight">
 						<div class="flex-row">
 							<span class="text-2xl font-semibold txt-blk">
-								{{ (site[newestKey].lighthouse.seo * 100) | round }}
-							</span>
-							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
-						</div>
-						<span class="text-sm font-semibold text-red-600 uppercase block">SEO</span>
-					</div>
-					<div class="flex-1 text-center pt-6 pb-5 leading-tight">
-						<div class="flex-row">
-							<span class="text-2xl font-semibold txt-blk">
 								{{ (site[newestKey].lighthouse.accessibility * 100) | round }}
 								</span>
 							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
@@ -117,6 +112,15 @@ counts:
 							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
 						</div>
 						<span class="flex-row text-sm font-semibold text-red-600 uppercase block">Quality</span>
+					</div>
+					<div class="flex-1 text-center pt-6 pb-5 leading-tight">
+						<div class="flex-row">
+							<span class="text-2xl font-semibold txt-blk">
+								{{ (site[newestKey].lighthouse.seo * 100) | round }}
+							</span>
+							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
+						</div>
+						<span class="text-sm font-semibold text-red-600 uppercase block">SEO</span>
 					</div>
 					<div class="pt-6 pb-5 pl-3 pr-5 text-center leading-tight">
 						<span class="flex-row text-2xl font-medium text-gray-400 -ml-1">></span>
