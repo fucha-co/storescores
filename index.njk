@@ -1,5 +1,5 @@
 ---
-maxResults: 10
+maxResults: 20
 layout: layout.njk
 pagination:
   data: "sites"
@@ -60,6 +60,8 @@ counts:
 								{{ site[newestKey].url | displayUrl(hasRedirect) | replace("/", "") }}
 								<span class="block text-base font-normal text-gray-500">
 								
+							{% if site[key].url == "https://zukoni.com/" %}Laravel Livewire website{%- endif %}
+							{% if site[key].url == "https://shop.visualizevalue.com/" %}Shopify store{%- endif %}
 							{% if site[key].url == "https://www.pushas.com/" %}Shopify store{%- endif %}
 							{% if site[key].url === "https://ivyandwood.com.au/" %}Shopify store{%- endif %}
 							{% if site[key].url === "https://sensorylab.com.au/" %}Shopify store{%- endif %}
@@ -80,7 +82,7 @@ counts:
 					</div>
 					
 					<div class="px-6 py-6 text-center leading-tight bg-gray-100">
-						<div class="text-2xl font-semibold txt-blk">{% if hundos === 4 %}💯{% else %}{{ site[newestKey] | lighthouseTotal//4 | round | int }}%{% endif %}</div>
+						<div class="text-2xl font-semibold txt-blk">{% if hundos === 4 %}💯{% else %}{{ site[newestKey] | lighthouseTotal//4 }}%{% endif %}</div>
 						<div class="flex-row text-sm text-gray-400 font-medium uppercase">Score</div>
 					</div>
 

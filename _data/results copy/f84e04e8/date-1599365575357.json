@@ -1,0 +1,46 @@
+{
+  "url": "https://teamapparel.com.au/",
+  "requestedUrl": "https://teamapparel.com.au/",
+  "timestamp": 1599366205688,
+  "ranks": {
+    "hundos": 3,
+    "performance": 6,
+    "accessibility": 2,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.04,
+    "accessibility": 0.88,
+    "bestPractices": 0.79,
+    "seo": 0.86,
+    "total": 257
+  },
+  "firstContentfulPaint": 5154.3385,
+  "speedIndex": 35788.62402704902,
+  "largestContentfulPaint": 22462.213499999998,
+  "totalBlockingTime": 35547.095499999996,
+  "cumulativeLayoutShift": 0.8473090955946181,
+  "timeToInteractive": 44711.433999999994,
+  "maxPotentialFirstInputDelay": 4976,
+  "timeToFirstByte": 499.5559999999999,
+  "weight": {
+    "summary": "93 requests • 3,791 KiB",
+    "total": 3881668,
+    "image": 2940673,
+    "imageCount": 21,
+    "script": 518889,
+    "scriptCount": 49,
+    "document": 29904,
+    "font": 135129,
+    "fontCount": 6,
+    "stylesheet": 217935,
+    "stylesheetCount": 6,
+    "thirdParty": 245092,
+    "thirdPartyCount": 17
+  },
+  "axe": {
+    "passes": 485,
+    "violations": 43
+  }
+}

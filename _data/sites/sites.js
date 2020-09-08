@@ -5,10 +5,13 @@ module.exports = {
 		frequency: 1 * 1, // (in minutes), 23 hours
 	},
 	urls: [
-		"https://www.dockyardsocial.com/",
+		"https://zukoni.com/", //——laravel livewire
+		"https://marketlane.com.au/", //——magento
+		"https://shop.visualizevalue.com/", //——shopify
+		"https://www.dockyardsocial.com/", //——webflow
 		"https://www.jbhifi.com.au/",
 		"https://teamapparel.com.au/",
-		"https://au.koala.com/",
+		"https://au.koala.com/", //——shopify plus
 		"https://sensorylab.com.au/",
 		"https://ivyandwood.com.au/",
 		"https://www.pushas.com/",

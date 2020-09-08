@@ -1,0 +1,46 @@
+{
+  "url": "https://zukoni.com/",
+  "requestedUrl": "https://zukoni.com/",
+  "timestamp": 1599543075795,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.09,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 309
+  },
+  "firstContentfulPaint": 5389.972,
+  "speedIndex": 24282.208685057074,
+  "largestContentfulPaint": 9681.472,
+  "totalBlockingTime": 12758.500000000002,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 19790.472,
+  "maxPotentialFirstInputDelay": 5420.000000000002,
+  "timeToFirstByte": 493.53199999999924,
+  "weight": {
+    "summary": "26 requests • 586 KiB",
+    "total": 600337,
+    "image": 243475,
+    "imageCount": 9,
+    "script": 284705,
+    "scriptCount": 6,
+    "document": 12045,
+    "font": 36972,
+    "fontCount": 1,
+    "stylesheet": 21612,
+    "stylesheetCount": 3,
+    "thirdParty": 296296,
+    "thirdPartyCount": 21
+  },
+  "axe": {
+    "passes": 346,
+    "violations": 0
+  }
+}

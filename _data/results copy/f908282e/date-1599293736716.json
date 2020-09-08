@@ -1,0 +1,47 @@
+{
+  "url": "https://shopmrbeast.com/",
+  "requestedUrl": "https://shopmrbeast.com/",
+  "platform": "shopify headless",
+  "timestamp": 1599294538253,
+  "ranks": {
+    "hundos": 1,
+    "performance": 5,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.06,
+    "accessibility": 0.85,
+    "bestPractices": 0.79,
+    "seo": 0.93,
+    "total": 263
+  },
+  "firstContentfulPaint": 4562.7585,
+  "speedIndex": 48205.13271282613,
+  "largestContentfulPaint": 52818.4285,
+  "totalBlockingTime": 65910.75700000001,
+  "cumulativeLayoutShift": 1.000772433810764,
+  "timeToInteractive": 97991.97149999996,
+  "maxPotentialFirstInputDelay": 9735.000000000004,
+  "timeToFirstByte": 258.722,
+  "weight": {
+    "summary": "152 requests • 19,433 KiB",
+    "total": 19899738,
+    "image": 17830396,
+    "imageCount": 60,
+    "script": 1236956,
+    "scriptCount": 45,
+    "document": 26616,
+    "font": 593082,
+    "fontCount": 18,
+    "stylesheet": 145420,
+    "stylesheetCount": 8,
+    "thirdParty": 19874622,
+    "thirdPartyCount": 151
+  },
+  "axe": {
+    "passes": 988,
+    "violations": 19
+  }
+}
