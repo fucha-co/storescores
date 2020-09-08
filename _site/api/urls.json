@@ -8,11 +8,14 @@
     ],
     "vertical": "sites"
   },
-  "https://www.dockyardsocial.com/": {
-    "requestedUrl": "https://www.dockyardsocial.com/",
-    "url": "https://www.dockyardsocial.com/",
-    "hash": "3ca4cdbb",
-    "categories": []
+  "https://stali.com.au/": {
+    "requestedUrl": "https://stali.com.au/",
+    "url": "https://stali.com.au/",
+    "hash": "6a5c9f6d",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
   },
   "https://www.jbhifi.com.au/": {
     "requestedUrl": "https://www.jbhifi.com.au/",
@@ -23,14 +26,11 @@
     ],
     "vertical": "sites"
   },
-  "https://stali.com.au/": {
-    "requestedUrl": "https://stali.com.au/",
-    "url": "https://stali.com.au/",
-    "hash": "6a5c9f6d",
-    "categories": [
-      "sites"
-    ],
-    "vertical": "sites"
+  "https://www.dockyardsocial.com/": {
+    "requestedUrl": "https://www.dockyardsocial.com/",
+    "url": "https://www.dockyardsocial.com/",
+    "hash": "3ca4cdbb",
+    "categories": []
   },
   "https://sensorylab.com.au/": {
     "requestedUrl": "https://sensorylab.com.au/",
@@ -59,15 +59,6 @@
     ],
     "vertical": "sites"
   },
-  "https://au.koala.com/": {
-    "requestedUrl": "https://au.koala.com/",
-    "url": "https://au.koala.com/",
-    "hash": "afd8a726",
-    "categories": [
-      "sites"
-    ],
-    "vertical": "sites"
-  },
   "https://www.culturekings.com.au/": {
     "requestedUrl": "https://www.culturekings.com.au/",
     "url": "https://www.culturekings.com.au/",
@@ -90,6 +81,15 @@
     "requestedUrl": "https://shopmrbeast.com/",
     "url": "https://shopmrbeast.com/",
     "hash": "f908282e",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
+  },
+  "https://au.koala.com/": {
+    "requestedUrl": "https://au.koala.com/",
+    "url": "https://au.koala.com/",
+    "hash": "afd8a726",
     "categories": [
       "sites"
     ],
