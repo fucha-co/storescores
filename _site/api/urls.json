@@ -3,7 +3,10 @@
     "requestedUrl": "https://www.glossier.com/products/",
     "url": "https://www.glossier.com/products/",
     "hash": "120edfe0",
-    "categories": []
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
   },
   "https://www.pushas.com/": {
     "requestedUrl": "https://www.pushas.com/",
@@ -85,6 +88,12 @@
       "sites"
     ],
     "vertical": "sites"
+  },
+  "https://mixture-vinovatheme.myshopify.com/": {
+    "requestedUrl": "https://mixture-vinovatheme.myshopify.com/",
+    "url": "https://mixture-vinovatheme.myshopify.com/",
+    "hash": "85d6ea03",
+    "categories": []
   },
   "https://ivyandwood.com.au/": {
     "requestedUrl": "https://ivyandwood.com.au/",

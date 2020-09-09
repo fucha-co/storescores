@@ -5,6 +5,7 @@ module.exports = {
 		frequency: 1 * 1, // (in minutes), 23 hours
 	},
 	urls: [
+		"https://mixture-vinovatheme.myshopify.com/", //——shopify
 		"https://www.glossier.com/products/", //—— react static
 		"https://shop.travisscott.com/", //——shopify
 		"https://www.fairfeed.com.au/", //——shopify
