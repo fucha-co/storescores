@@ -1,0 +1,46 @@
+{
+  "url": "https://www.fairfeed.com.au/",
+  "requestedUrl": "https://www.fairfeed.com.au/",
+  "timestamp": 1599651245470,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.01,
+    "accessibility": 0.88,
+    "bestPractices": 0.93,
+    "seo": 0.93,
+    "total": 275
+  },
+  "firstContentfulPaint": 9023.425,
+  "speedIndex": 23878.952304591883,
+  "largestContentfulPaint": 19766.119000000002,
+  "totalBlockingTime": 14540.242,
+  "cumulativeLayoutShift": 1.8103765869140624,
+  "timeToInteractive": 25774.219,
+  "maxPotentialFirstInputDelay": 4935.999999999998,
+  "timeToFirstByte": 904.0749999999998,
+  "weight": {
+    "summary": "38 requests • 2,148 KiB",
+    "total": 2199639,
+    "image": 656682,
+    "imageCount": 13,
+    "script": 1389564,
+    "scriptCount": 9,
+    "document": 28342,
+    "font": 24140,
+    "fontCount": 3,
+    "stylesheet": 78170,
+    "stylesheetCount": 5,
+    "thirdParty": 2148863,
+    "thirdPartyCount": 31
+  },
+  "axe": {
+    "passes": 778,
+    "violations": 10
+  }
+}

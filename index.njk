@@ -60,6 +60,7 @@ counts:
 								{{ site[newestKey].url | displayUrl(hasRedirect) | replace("/", "") }}
 								<span class="block text-base font-normal text-gray-500">
 								
+							{% if site[key].url == "https://www.debugbear.com/" %}(Not a store){%- endif %}
 							{% if site[key].url == "https://zukoni.com/" %}Laravel Livewire website{%- endif %}
 							{% if site[key].url == "https://shop.visualizevalue.com/" %}Shopify store{%- endif %}
 							{% if site[key].url == "https://www.pushas.com/" %}Shopify store{%- endif %}
@@ -83,7 +84,7 @@ counts:
 					
 					<div class="px-6 py-6 text-center leading-tight bg-gray-100">
 						<div class="text-2xl font-semibold txt-blk">{% if hundos === 4 %}💯{% else %}{{ site[newestKey] | lighthouseTotal//4 }}%{% endif %}</div>
-						<div class="flex-row text-sm text-gray-400 font-medium uppercase">Score</div>
+						<div class="flex-row text-sm text-red-600 font-medium uppercase">Score</div>
 					</div>
 
 					{%- if not site[newestKey].error %}
@@ -93,7 +94,8 @@ counts:
 							<span class="text-2xl font-semibold txt-blk">
 								{{ (site[newestKey].lighthouse.performance * 100) | round }}
 							</span>
-							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
+							<span class="text-2xl font-medium text-gray-400 -ml-1">/</span>
+							<span class="text-sm font-medium txt-blk -ml-1">100</span>
 						</div>
 						<span class="text-sm font-semibold text-red-600 uppercase block">Speed</span>
 					</div>
@@ -102,7 +104,8 @@ counts:
 							<span class="text-2xl font-semibold txt-blk">
 								{{ (site[newestKey].lighthouse.accessibility * 100) | round }}
 								</span>
-							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
+							<span class="text-2xl font-medium text-gray-400 -ml-1">/</span>
+							<span class="text-sm font-medium txt-blk -ml-1">100</span>
 						</div>
 						<span class="flex-row text-sm font-semibold text-red-600 uppercase block">Access</span>
 					</div>
@@ -111,7 +114,8 @@ counts:
 							<span class="text-2xl font-semibold txt-blk">
 								{{ (site[newestKey].lighthouse.bestPractices * 100) | round }}
 							</span>
-							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
+							<span class="text-2xl font-medium text-gray-400 -ml-1">/</span>
+							<span class="text-sm font-medium txt-blk -ml-1">100</span>
 						</div>
 						<span class="flex-row text-sm font-semibold text-red-600 uppercase block">Quality</span>
 					</div>
@@ -120,7 +124,8 @@ counts:
 							<span class="text-2xl font-semibold txt-blk">
 								{{ (site[newestKey].lighthouse.seo * 100) | round }}
 							</span>
-							<span class="text-2xl font-medium text-gray-400 -ml-1">/100</span>
+							<span class="text-2xl font-medium text-gray-400 -ml-1">/</span>
+							<span class="text-sm font-medium txt-blk -ml-1">100</span>
 						</div>
 						<span class="text-sm font-semibold text-red-600 uppercase block">SEO</span>
 					</div>

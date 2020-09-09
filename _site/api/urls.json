@@ -1,4 +1,10 @@
 {
+  "https://www.glossier.com/products/": {
+    "requestedUrl": "https://www.glossier.com/products/",
+    "url": "https://www.glossier.com/products/",
+    "hash": "120edfe0",
+    "categories": []
+  },
   "https://www.pushas.com/": {
     "requestedUrl": "https://www.pushas.com/",
     "url": "https://www.pushas.com/",
@@ -21,7 +27,28 @@
     "requestedUrl": "https://zukoni.com/",
     "url": "https://zukoni.com/",
     "hash": "4707a2d8",
-    "categories": []
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
+  },
+  "https://lowimpact.organicbasics.com/eur": {
+    "requestedUrl": "https://lowimpact.organicbasics.com/eur",
+    "url": "https://lowimpact.organicbasics.com/eur",
+    "hash": "510e1a78",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
+  },
+  "https://www.fairfeed.com.au/": {
+    "requestedUrl": "https://www.fairfeed.com.au/",
+    "url": "https://www.fairfeed.com.au/",
+    "hash": "511b8809",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
   },
   "https://www.jbhifi.com.au/": {
     "requestedUrl": "https://www.jbhifi.com.au/",
@@ -90,6 +117,24 @@
     "requestedUrl": "https://www.culturekings.com.au/",
     "url": "https://www.culturekings.com.au/",
     "hash": "d0e31923",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
+  },
+  "https://www.debugbear.com/": {
+    "requestedUrl": "https://www.debugbear.com/",
+    "url": "https://www.debugbear.com/",
+    "hash": "dc4ad5a8",
+    "categories": [
+      "sites"
+    ],
+    "vertical": "sites"
+  },
+  "https://shop.travisscott.com/": {
+    "requestedUrl": "https://shop.travisscott.com/",
+    "url": "https://shop.travisscott.com/",
+    "hash": "e8215f2a",
     "categories": [
       "sites"
     ],

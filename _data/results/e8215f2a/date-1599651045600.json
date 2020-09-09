@@ -1,0 +1,46 @@
+{
+  "url": "https://shop.travisscott.com/",
+  "requestedUrl": "https://shop.travisscott.com/",
+  "timestamp": 1599651385906,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.27,
+    "accessibility": 1,
+    "bestPractices": 0.93,
+    "seo": 0.99,
+    "total": 319
+  },
+  "firstContentfulPaint": 2677.2760000000003,
+  "speedIndex": 11213.159401569039,
+  "largestContentfulPaint": 4654.316499999999,
+  "totalBlockingTime": 17968,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 23626.275999999998,
+  "maxPotentialFirstInputDelay": 3313.999999999998,
+  "timeToFirstByte": 285.44300000000004,
+  "weight": {
+    "summary": "86 requests • 1,255 KiB",
+    "total": 1285290,
+    "image": 780723,
+    "imageCount": 29,
+    "script": 425392,
+    "scriptCount": 27,
+    "document": 54491,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 11876,
+    "stylesheetCount": 1,
+    "thirdParty": 1267670,
+    "thirdPartyCount": 84
+  },
+  "axe": {
+    "passes": 1430,
+    "violations": 1
+  }
+}

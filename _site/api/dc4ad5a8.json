@@ -1,0 +1,46 @@
+{
+  "url": "https://www.debugbear.com/",
+  "requestedUrl": "https://www.debugbear.com/",
+  "timestamp": 1599613192546,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.09,
+    "accessibility": 0.89,
+    "bestPractices": 0.93,
+    "seo": 0.93,
+    "total": 284
+  },
+  "firstContentfulPaint": 5366.563,
+  "speedIndex": 14888.979344070916,
+  "largestContentfulPaint": 9091.4725,
+  "totalBlockingTime": 10277.000000000002,
+  "cumulativeLayoutShift": 0.08650938585069445,
+  "timeToInteractive": 18256.569499999998,
+  "maxPotentialFirstInputDelay": 3415.0000000000005,
+  "timeToFirstByte": 513.209,
+  "weight": {
+    "summary": "43 requests • 1,500 KiB",
+    "total": 1536050,
+    "image": 840529,
+    "imageCount": 14,
+    "script": 294907,
+    "scriptCount": 11,
+    "document": 11483,
+    "font": 11410,
+    "fontCount": 1,
+    "stylesheet": 30930,
+    "stylesheetCount": 2,
+    "thirdParty": 655317,
+    "thirdPartyCount": 28
+  },
+  "axe": {
+    "passes": 438,
+    "violations": 21
+  }
+}

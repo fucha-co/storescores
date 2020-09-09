@@ -1,0 +1,46 @@
+{
+  "url": "https://www.glossier.com/products/",
+  "requestedUrl": "https://www.glossier.com/products/",
+  "timestamp": 1599651340436,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.07,
+    "accessibility": 0.92,
+    "bestPractices": 0.8,
+    "seo": 0.98,
+    "total": 277
+  },
+  "firstContentfulPaint": 6271.787,
+  "speedIndex": 44391.444628319325,
+  "largestContentfulPaint": 19280.287000000004,
+  "totalBlockingTime": 58270,
+  "cumulativeLayoutShift": 0.0006388888888888888,
+  "timeToInteractive": 71636.787,
+  "maxPotentialFirstInputDelay": 9999.999999999996,
+  "timeToFirstByte": 412.964,
+  "weight": {
+    "summary": "165 requests • 1,883 KiB",
+    "total": 1927687,
+    "image": 76904,
+    "imageCount": 50,
+    "script": 1198922,
+    "scriptCount": 39,
+    "document": 286985,
+    "font": 27957,
+    "fontCount": 3,
+    "stylesheet": 29245,
+    "stylesheetCount": 1,
+    "thirdParty": 1120914,
+    "thirdPartyCount": 144
+  },
+  "axe": {
+    "passes": 8217,
+    "violations": 3
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "url": "https://lowimpact.organicbasics.com/eur",
+  "requestedUrl": "https://lowimpact.organicbasics.com/eur",
+  "timestamp": 1599563832694,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.3.0",
+    "performance": 0.17,
+    "accessibility": 0.68,
+    "bestPractices": 0.93,
+    "seo": 0.92,
+    "total": 270
+  },
+  "firstContentfulPaint": 3999.855,
+  "speedIndex": 10167.887326798369,
+  "largestContentfulPaint": 7985.355,
+  "totalBlockingTime": 6784.499999999998,
+  "cumulativeLayoutShift": 0.03168896484375,
+  "timeToInteractive": 12614.589499999998,
+  "maxPotentialFirstInputDelay": 3347.999999999998,
+  "timeToFirstByte": 637.405,
+  "weight": {
+    "summary": "38 requests • 526 KiB",
+    "total": 539103,
+    "image": 250840,
+    "imageCount": 21,
+    "script": 228676,
+    "scriptCount": 8,
+    "document": 12716,
+    "font": 32143,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 34486,
+    "thirdPartyCount": 9
+  },
+  "axe": {
+    "passes": 717,
+    "violations": 30
+  }
+}

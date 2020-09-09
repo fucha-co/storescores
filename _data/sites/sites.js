@@ -5,6 +5,10 @@ module.exports = {
 		frequency: 1 * 1, // (in minutes), 23 hours
 	},
 	urls: [
+		"https://www.glossier.com/products/", //—— react static
+		"https://shop.travisscott.com/", //——shopify
+		"https://www.fairfeed.com.au/", //——shopify
+		"https://lowimpact.organicbasics.com/eur",
 		"https://zukoni.com/", //——laravel livewire
 		"https://marketlane.com.au/", //——magento
 		"https://shop.visualizevalue.com/", //——shopify
